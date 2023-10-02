@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16x16 Grid</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="content">
+            <div class="board"></div>
+            <div class="button">
+                <button>Black</button>
+                <button>White</button>
+                <button>Random</button>
+                <button>Reset</button>
+            </div>
+            <div>
+                <input
+                    type="text"
+                    placeholder="Sice of the board"
+                    value="16"
+                    onchange="changeSize(this.value)"
+                />
+                <button>Set Size</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="myscripts.js"></script>
+</html>

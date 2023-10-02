@@ -1,0 +1,10 @@
+.board{
+    width:800px;
+    height:800px;
+    display: grid;
+}
+/* div *{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} */
