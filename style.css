@@ -1,7 +1,37 @@
-.board{
-    width:800px;
-    height:800px;
+.board {
+    width:750px;
+    height:750px;
     display: grid;
+    margin-left:480px;
+};
+
+h1{
+    display:inline;
+
+}
+
+span{
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 160px;
+    padding: 18px;
+  }
+/* 
+*{
+    display: flex;
+    justify-content: center;
+    } */
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+.input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 /* div *{
     display: flex;
