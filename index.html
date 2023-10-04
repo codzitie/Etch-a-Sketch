@@ -8,13 +8,14 @@
 </head>
 <body>
     <div class="grid-container">
+        <div class="mode" onclick="">Mode: coloring</div>
         <div class="content">
             <div class="board"></div>
             <div class="button">
-                <button>Black</button>
-                <button>White</button>
-                <button>Random</button>
-                <button>Reset</button>
+                <button onclick="changeColor('black')">Black</button>
+                <button onclick="changeColor('grey')">Erasor</button>
+                <button onclick="changeColor('random')">Random</button>
+                <button onclick="resetBoard()">Reset</button>
             </div>
             <div>
                 <input
